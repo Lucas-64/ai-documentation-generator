@@ -1,0 +1,82 @@
+<svg width="600" height="320" viewBox="0 0 600 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI Documentation Generator</title>
+  <desc id="desc">Project card for a local-first AI documentation generator focused on project management, automation and privacy.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="600" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B0F14"/>
+      <stop offset="0.55" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#090C10"/>
+    </linearGradient>
+
+```
+<radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(455 72) rotate(135) scale(300 240)">
+  <stop stop-color="#4CFF33" stop-opacity="0.24"/>
+  <stop offset="1" stop-color="#4CFF33" stop-opacity="0"/>
+</radialGradient>
+
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+  <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#4CFF33" stroke-width="0.6" opacity="0.10"/>
+</pattern>
+
+<filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+  <feGaussianBlur stdDeviation="5" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+```
+
+  </defs>
+
+  <rect width="600" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="600" height="320" rx="24" fill="url(#grid)"/>
+  <rect width="600" height="320" rx="24" fill="url(#glow)"/>
+  <rect x="1" y="1" width="598" height="318" rx="23" stroke="#4CFF33" stroke-opacity="0.35"/>
+
+  <circle cx="515" cy="62" r="38" fill="#4CFF33" opacity="0.14" filter="url(#softGlow)"/>
+
+  <path d="M498 44H529C534.5 44 539 48.5 539 54V82C539 87.5 534.5 92 529 92H498C492.5 92 488 87.5 488 82V54C488 48.5 492.5 44 498 44Z" stroke="#4CFF33" stroke-width="3"/>
+  <path d="M500 59H527" stroke="#4CFF33" stroke-width="3" stroke-linecap="round"/>
+  <path d="M500 70H529" stroke="#4CFF33" stroke-width="3" stroke-linecap="round"/>
+  <path d="M500 81H518" stroke="#4CFF33" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="537" cy="45" r="7" fill="#4CFF33" opacity="0.95" filter="url(#softGlow)"/>
+
+  <text x="42" y="70" fill="#4CFF33" font-family="Fira Code, Consolas, monospace" font-size="16" font-weight="600">
+    LOCAL AI LAB
+  </text>
+
+  <text x="42" y="122" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="37" font-weight="800">
+    AI Documentation
+  </text>
+
+  <text x="42" y="160" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="37" font-weight="800">
+    Generator
+  </text>
+
+  <text x="42" y="198" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">
+    Local-first workflow for generating project
+  </text>
+
+  <text x="42" y="224" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">
+    documents with AI, templates and automation.
+  </text>
+
+  <rect x="42" y="252" width="86" height="34" rx="17" fill="#4CFF33" fill-opacity="0.12" stroke="#4CFF33" stroke-opacity="0.4"/>
+  <text x="65" y="274" fill="#4CFF33" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">
+    Python
+  </text>
+
+  <rect x="140" y="252" width="104" height="34" rx="17" fill="#4CFF33" fill-opacity="0.12" stroke="#4CFF33" stroke-opacity="0.4"/>
+  <text x="162" y="274" fill="#4CFF33" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">
+    Local LLM
+  </text>
+
+  <rect x="256" y="252" width="122" height="34" rx="17" fill="#4CFF33" fill-opacity="0.12" stroke="#4CFF33" stroke-opacity="0.4"/>
+  <text x="278" y="274" fill="#4CFF33" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">
+    Automation
+  </text>
+
+  <path d="M42 302 H558" stroke="#4CFF33" stroke-opacity="0.55" stroke-width="2" filter="url(#softGlow)"/>
+</svg>
